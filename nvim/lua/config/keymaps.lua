@@ -43,12 +43,6 @@ vim.keymap.set("v", "<S-Tab>", "<gv", { silent = true, noremap = true })
 vim.api.nvim_set_keymap("v", "<C-k>", ":move '<-2<cr>gv=gv", { noremap = true })
 vim.api.nvim_set_keymap("v", "<C-j>", ":move '>+1<cr>gv=gv", { noremap = true })
 
---Primeagen keymaps
--- vim.keymap.set("n", "<C-u>", "<C-u>zz")
--- vim.keymap.set("n", "<C-d>", "<C-d>zz")
--- vim.keymap.set("n", "n", "nzzzz", { noremap = true, silent = false })
--- vim.keymap.set("n", "N", "Nzzzz", { noremap = true, silent = false })
-
 vim.keymap.set("n", "<Esc>", ":noh<CR>", { noremap = true, silent = true })
 
 --Quiting the currentBuffer

@@ -32,6 +32,7 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 opt.scrolloff = 8
 opt.completeopt = "menuone,noinsert,noselect" -- so this is for the autocompletion like 
+opt.guicursor = ""
 -- menuone is saying that show autocompletion when there is single suggestion also
 
 -- Behaviour
